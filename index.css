@@ -3,7 +3,7 @@
     padding: 0;
      box-sizing: border-box; 
      text-decoration: none;
-    
+     scroll-behavior: smooth;  
 }
 
 
@@ -29,7 +29,7 @@
 
 
 #navbar img{
-    padding-left: 40px;  
+    padding-left: 40px;
 }
 
 
@@ -445,7 +445,6 @@
 
 
 .container div p{
-    
     line-height: 29px;
     display: flex;
     justify-content:center;
@@ -453,6 +452,7 @@
      font-size: 17px;
      padding-top: 8%;
      text-align: center;
+     color:rgba(0, 0, 0, 0.516);
 }
 .container div h6{
     font-size: 17px;
@@ -482,7 +482,6 @@
 #Section4 a{
     width: 41%;
     height: 130vh;
-    /* border: 2px solid black; */
     display: flex;
     justify-content:right;
     align-items: center;
@@ -499,11 +498,9 @@
 #Section4 div {
     width: 59%;
     height: 130vh;
-    border: 1px solid black;
 }
 
 #Section4 div h5{
-    /* border: 1px solid black; */
     color: red;
     margin-left: 100px;
     width:auto ;
@@ -515,7 +512,6 @@
 }
 
 #Section4 div h1{
-    /* border: 1px solid black; */
     width: auto;
     height:17%;
     margin-left: 100px;
@@ -526,30 +522,288 @@
 }
 
 #Section4 div div{
-    border: 2px solid black;
     width: 59%;
     height: 27%;
     margin-left:100px ;
-    
 }
 
 
 .sec4 p{
-    border: 1px solid black;
-    columns:;
-    
+    color: rgba(0, 0, 0, 0.564);
 }
 
 .sec4 h6{
-    border: 1px solid black;
-    margin-top: 15px;
+    margin-top: 25px;
     padding-top: 10px;
     font-size: 17px;
+    color: rgb(0, 0, 0);
 }
 
 #Section5{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+#Section5 img{
+    width: 45%;
+    height: 150vh;
     border: 1px solid black;
-    background-color: wheat ;
+}
+#Section5 img:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: white;
+    text-decoration:wavy;
+    border: solid 2px rgba(0, 0, 0, 0.542); 
+    transform: scale(1.06) ;  
+    transition: 0.5s;  
+} 
+
+#Section5 div{
+    width: 55%;
+    height:150vh ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#Section5 div img{
+    border: 1px solid black;
+    width:none;
+    height: 49%;
+}
+#Section6{
+    width: 100%;
+    height:80vh;
+    background-color: white;
+}
+#Section6 div{
+    width: 100%;
+    height:45vh;
+    background-color:rgba(4, 4, 71, 0.907); 
+}
+.sec6{
+    position: relative;
+    top: 28%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sec6 h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:48px;
+    display: flex;
+    justify-content: left;
+    padding-left: 10%;
+    font-weight:bolder;
+}
+.sec6 button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(249, 36, 36);
+    color: rgb(246, 246, 246);
+    border: none;
+    text-decoration:wavy;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.sec6 button:hover{
+    background-color: rgb(215, 4, 4) ;
+    color: rgb(246, 246, 246);
+    border: none;
+    text-decoration:wavy;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#Section7{
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+    display: flex;
+}
+#Section7 img{
+    width:45%;
+    height:100vh;
+}
+#Section7 div{
+    width: 44%;
+    height: 100vh;
+    background-color:rgba(173, 216, 230, 0.334);
+}
+#Section7 div h5{
+    width: 100%;
+    height:15%;
+    color: red;
+    display: flex;
+    padding-left: 10%;
+    align-items:end;
+    font-size: 17px;
+}
+#Section7 div h1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items:end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    padding-left:10%;  
+}
+
+#Section7 div input {
+    background-color:rgba(173, 216, 230, 0.079);
+    border:transparent;
+    margin-left: 10%;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom:1px solid black;
+    
+    
+}
+#Section7 div select{
+    background-color:rgba(173, 216, 230, 0.079);
+    margin-left: 10%;
+    margin-top: 8%;
+    font-size: 20px;
+    width: 256px;
+    border:transparent;
+
+}
+#Section7 div textarea{
+    background-color:rgba(173, 216, 230, 0.079);
+    margin-top: 8%;
+    margin-left: 10%;
+    border:transparent;
+    font-size: 20px; 
+    font-display: block;
+}
+#Section7 div button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(249, 36, 36);
+    color: rgb(246, 246, 246);
+    border: none;
+    text-decoration:wavy;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+#Section7 div button:hover{
+    background-color: rgb(215, 4, 4) ;
+    color: rgb(246, 246, 246);
+    border: none;
+    text-decoration:wavy;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#Section8{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.last{
+    width: 100%;
+    height:100vh;
+    position:absolute;
+    filter: blur(4px);
+}
+.sec8-1{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    color: white;
+}
+.sec8-1 h5{
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8-1 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 40px;
+    color: lightgray;
+}
+.sec8-2{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    color: white;
+}
+.sec8-2 h5{
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8-2 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 40px;
+    color: lightgray;
+}
+.sec8-3{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    color: white;
+}
+.sec8-3 h5{
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec8-3 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 40px;
+    color: lightgray;
+}
+.sec8-4{
+    width: 20%;
+    height:60%;
+    position: relative;
+    color: white;
+}
+.sec8-4 img{
+    width: 170px;
+    height: 50px;
+    margin-top:15%;
+    margin-left: 60px;
+}
+.sec8-4 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height:17px;
+    color: lightgray;
+}
+.sec8-5{
+    margin-top: 50px;
+    list-style:20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.sec8-5 a{
+    color:white;
 }

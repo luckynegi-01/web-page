@@ -1,0 +1,15 @@
+@media(max-width:430px){
+      navbar{
+        font-size: auto;
+        display: none;
+      }
+      /* sab chij ko none karna jisko bhi gayab karna ha */
+      /* font awsome sa 3 line vala icon nikal  ke body mah dalna fer main desktop ki screen sa none karna esa */
+      /* label tag phadna  */
+      /* fer css mah jake #check:checked~ ya nav bar ki chija jo none ki vo aye gi */
+      
+
+
+
+
+}
